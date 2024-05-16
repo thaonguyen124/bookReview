@@ -1,0 +1,167 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(232, 215, 190);
+}
+
+.Menu 
+{
+    width:250px;
+    height: 100%;
+    position:fixed;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+}
+.ChoseList
+{
+    height:80px;
+    border: 0.5px solid rgb(178, 150, 25);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+}
+#Review
+{
+    padding: 5px;
+    margin-left: 250px;
+    background-color: tan;
+    color:rgb(0, 2, 3);
+    height:250px;
+    border-radius: 10px;
+}
+#bookPicture
+{
+    position: relative;
+    left: 5px;
+    height: 200px;
+    width: 150px;
+    background-image: url('bookImage.png');
+    background-size: cover; 
+    background-position: center; 
+}
+#bookName
+{
+    position: relative;
+    left: 155px;
+    width: 1000px;
+    font-size: 30px;
+    overflow: scroll;
+    white-space: nowrap;
+}
+#authorName
+{
+    position: relative;
+    left: 155px;
+    top:-6px;
+    font-size: 20px;
+    width: 1000px;
+}
+#star
+{
+    position: relative;
+    left: 155px;
+    top: -5px;
+    font-size: 15px;
+    width: 500px;
+}
+#descrip
+{
+    position: relative;
+    left: 155px;
+    top: -3px;
+    font-size: 13px;
+    width: 1000px;
+    max-height: 100px;
+    overflow: scroll;
+}
+a 
+{
+    position: relative;
+    top: 3px;
+    left: 5px;
+    color: rgb(202, 72, 108); 
+    text-decoration: none; 
+    
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+.icon
+{
+    width: 25px; 
+    height: 25px; 
+    margin-right: 5px; 
+    position: relative;
+    top: 9px;
+    left: 5px;
+    background-color:transparent;
+}
+#comment
+{
+    position: relative;
+    top:50px;
+    left: 190px;
+    height: 700px;
+    width: 800px;
+    background-color:rgb(245, 234, 219);
+    border-radius: 10px;
+}
+#txb_cate
+{
+    position: relative;
+    left: 300px;
+    top: 5px;
+}
+#btn_add_favorite
+{
+    position: relative;
+    left: 700px;
+    top: 3px;
+    width: 150px;
+    height: 30px;
+}
+#textbox
+{
+    margin:30px;
+    height: 50px;
+    width: 640px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+button
+{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px; 
+    cursor: pointer;
+    border-color:brown;
+    background-color: blanchedalmond;
+}
+button:hover
+{
+    background-color: tan;
+}
+#reviewer_comment
+{
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 740px;
+    height: 560px;
+    border-radius: 10px;
+    background-color: rgb(249, 248, 245);
+    overflow: scroll;
+    font-size: 20px;
+}

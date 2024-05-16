@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review Website</title>
+    <link rel="stylesheet" href="./public/style.css">
+    
+</head>
+<body>
+    <div class="Menu">
+        <div id="UserID" class='ChoseList'>
+            <span>  Người dùng</span>
+        </div>
+        <div class='ChoseList'>
+            <span>  Trang chủ</span>
+        </div>
+        <div class='ChoseList'>
+            <span>  Tìm kiếm</span>
+        </div>
+        <div class='ChoseList'>
+            <span>  Yêu thích</span>
+        </div>    
+        <div class='ChoseList'>
+            <span>  Đăng xuất</span>
+        </div>
+    </div>
+    <div id="Review">
+        <div id="BookInfo">
+            <div id="bookPicture">
+                <div id="bookName">Cho tôi xin một vé đi tuổi thơ</div>
+                <div id="authorName">Tác giả: Nguyễn Nhật Ánh</div>
+                <div id="star">Đánh giá: 4.5/5</div>
+                <div id="descrip">Tác phẩm gồm những câu chuyện nhỏ xoay xung quanh bốn đứa trẻ 
+                    trong cùng một khu xóm là con Tủn, con Tí sún, thằng Hải cò và thằng cu Mùi. 
+                    Trong đó, người kể chuyện là cu Mùi dưới hình thức kể của "thằng cu Mùi" lúc bé 
+                    và nhận xét, đánh giá của "ông Mùi" khi đã gần 50 tuổi. 
+                    Song song đó còn có sự xuất hiện của các phụ huynh và những câu chuyện dở khóc dở cười 
+                    khiến chúng như đang sống lại tuổi thơ tươi đẹp.</div>
+            </div>   
+        </div>
+        <a href="https://vi.wikipedia.org/wiki/Cho_tôi_xin_một_vé_đi_tuổi_thơ" target="_blank">
+            Mua sách này tại đây
+        </a>
+        <img src="public/cart2.jpg" alt="Giỏ hàng" class="icon">
+        <span id="txb_cate">Thể loại: Tự sự</span>
+        <button id="btn_add_favorite">Thêm vào yêu thích</button>
+        <div id="comment">
+            <div id="my_comment">
+                <input type="text" id="textbox" name="name" placeholder="Bạn cảm nhận gì về cuốn sách này?">
+                <button id="btn_post" type="submit">Đăng</button>
+            </div>
+            <div id="reviewer_comment"> 
+                
+            </div>
+        </div>
+    </div>
+    <script src="./public/test.js"></script>
+</body>
+</html
